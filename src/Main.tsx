@@ -26,7 +26,7 @@ export default function Main() {
           });
         })
     );
-  }, [isEuropeRegion, withOAuthLoading, updateToken]);
+  }, [isEuropeRegion, updateToken, withOAuthLoading]);
 
   return <FileList isLoading={oAuthLoading} />;
 }
